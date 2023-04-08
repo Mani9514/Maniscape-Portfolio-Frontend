@@ -1,0 +1,21 @@
+.hangingContainer{
+    background: rgba( 119, 117, 117, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 2px;
+    height: calc(100% -10px);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 3%;
+    height: 100%;
+}
+
+.hangingText{
+    transform: rotate(-90deg);
+    height: calc(100% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

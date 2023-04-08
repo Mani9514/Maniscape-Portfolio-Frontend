@@ -1,7 +1,72 @@
-.App {
-  min-height: 100vh;
-  background-color: #fff;
-}
 body{
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #051937, #004771, #007984, #00a964, #93ce0f);
   margin: 0;
+}
+.App {
+  padding: 2%;
+}
+
+@font-face {
+  font-family: "Regular";   /*Can be any text*/
+  src: local("poppins-v20-latin-regular"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "500";   /*Can be any text*/
+  src: local("poppins-v20-latin-500"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-500.ttf") format("truetype");
+}
+@font-face {
+  font-family: "600";   /*Can be any text*/
+  src: local("poppins-v20-latin-600"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-600.ttf") format("truetype");
+}
+@font-face {
+  font-family: "700";   /*Can be any text*/
+  src: local("poppins-v20-latin-700"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-700.ttf") format("truetype");
+}
+@font-face {
+  font-family: "800";   /*Can be any text*/
+  src: local("poppins-v20-latin-800"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-800.ttf") format("truetype");
+}
+@font-face {
+  font-family: "900";   /*Can be any text*/
+  src: local("poppins-v20-latin-900"),
+    url("./Assets/Poppins-Font/poppins-v20-latin-900.ttf") format("truetype");
+}
+.Regular{
+  font-family: "Regular" !important;
+}
+.Medium{
+  font-family: "500" !important;
+}
+.Semi_Bold{
+  font-family: "600" !important;
+}
+.Bold{
+  font-family: "700" !important;
+}
+.Bold2{
+  font-family: "800" !important;
+}
+.black_bold{
+  font-family: "900" !important;
+}
+.yellow{
+  color: #f6d365;
+}
+.gray{
+  color: #6991c7;
+}
+.green{
+  color: #43e97b;
+}
+.pink{
+  color:#fa709a;
+}
+.white{
+  color: #fff;
 }

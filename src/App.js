@@ -1,12 +1,17 @@
 import React from "react";
-import Navbar from "../src/component/Navbar";
-import Banner from "./component/Banner";
+import Banner from "./component/banner/Banner";
+import "./Assets/Poppins-Font/poppins-v20-latin-900.ttf";
+import "./Assets/Poppins-Font/poppins-v20-latin-800.ttf";
+import "./Assets/Poppins-Font/poppins-v20-latin-700.ttf";
+import "./Assets/Poppins-Font/poppins-v20-latin-600.ttf";
+import "./Assets/Poppins-Font/poppins-v20-latin-500.ttf";
+import "./Assets/Poppins-Font/poppins-v20-latin-regular.ttf";
+import "./App.css";
 const App = () => {
     return (
-        <>
-            <Navbar/>
+        <div className="App">
             <Banner/>
-        </>
+        </div>
     );
 };
 
