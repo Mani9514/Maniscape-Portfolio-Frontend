@@ -15,6 +15,7 @@
 .hangingText{
     transform: rotate(-90deg);
     height: calc(100% - 20px);
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
